@@ -10,43 +10,42 @@ All projects are **MIT licensed**, built in public, and deployed from a phone vi
 
 ## AMD Developer Hackathon 2026 — 4 Projects, 3 Tracks
 
-We are the only team to submit **live demos across all 3 hackathon tracks**:
+We are the only team submitting across **AI Agents**, **Fine-Tuning**, and **Vision/Multimodal** simultaneously:
 
-| # | Project | Track | Live Demo |
-|---|---------|-------|-----------|
-| 1 | **ZeroClaw** | AI Agents | [🤗 HF Space](https://huggingface.co/spaces/XMRTDAO/zero-claw) |
-| 2 | **MakeMeDinner** | Vision & Multimodal | [🤗 HF Space](https://huggingface.co/spaces/XMRTDAO/makemedinner) |
-| 3 | **OjosPerezosos** | Vision & Multimodal | [🤗 HF Space](https://huggingface.co/spaces/XMRTDAO/ojosperezosos) |
-| 4 | **ROCm Kernel Tuner** | Fine-Tuning AMD GPUs | [🤗 HF Space](https://huggingface.co/spaces/XMRTDAO/rocm-kernel-tuner) |
-
-**All 4 demos run live on AMD Instinct MI300X via ROCm 6.2 + ONNX Runtime**
+| Project | Track | Demo |
+|---------|-------|------|
+| **Zero-Claw** | AI Agents + Fine-Tuning | [Live Demo](https://xj7gd3bhpdbot6w.us-east-1.aws.endpoints.huggingface.cloud) |
+| **Ojosperezosos** | Vision/Multimodal | [Live Demo](https://7gur4ql3y2rj6kz.us-east-1.aws.endpoints.huggingface.cloud) |
+| **MakeMeDinner** | Multimodal AI | [Live Demo](https://jfrogqpqvpx9quw.us-east-1.aws.endpoints.huggingface.cloud) |
+| **ROCm Kernel Tuner** | Fine-Tuning | [Live Demo](https://4w7m4c8n3d3vaww.us-east-1.aws.endpoints.huggingface.cloud) |
 
 ---
 
-## Live Ecosystem
+## Core Projects
 
-- **CashDapp** — Mobile gateway to Monero | [HF Space](https://huggingface.co/spaces/XMRTDAO/cashdapp) | [Repo](https://github.com/xmrtdao/cashdapp)
-- **MobileMonero** — XMRT DAO hub | [HF Space](https://huggingface.co/spaces/XMRTDAO/mobilemonero) | [Repo](https://github.com/xmrtdao/mobilemonero)
-
----
-
-## Stack
-
-- **Compute:** AMD Instinct MI300X, ROCm 6.2
-- **Inference:** ONNX Runtime MIOpen EP, vLLM ROCm
-- **Training:** PEFT QLoRA, TRL GRPO
-- **Models:** Qwen2.5-Coder, Qwen2.5-VL, YOLOv8, MediaPipe, Piper
-- **Blockchain:** Monero (XMR), Solidity DAO contracts
-- **DevOps:** GitHub Actions → Hugging Face Spaces auto-deploy
+| Project | Language | Description |
+|---------|----------|-------------|
+| [suite](https://github.com/xmrtdao/suite) | TypeScript | AI Agent Platform — 202 Supabase Edge Functions |
+| [xmrt-mesh](https://github.com/xmrtdao/xmrt-mesh) | Rust | P2P Mesh Node with libp2p, mDNS, Gossipsub |
+| [relay-go](https://github.com/xmrtdao/relay-go) | Go | WebSocket Agent Relay Daemon |
+| [mobilemonero](https://github.com/xmrtdao/mobilemonero) | JavaScript | Monero Node Management & Fleet Dashboard |
+| [zero-claw](https://github.com/xmrtdao/zero-claw) | TypeScript | ZK Multi-Agent DAO Governance (AMD MI300X) |
 
 ---
 
-## Impact at Scale
+## Contributing
 
-| Metric | People / Savings |
-|--------|-----------------|
-| Healthcare AI | 200M+ amblyopia patients |
-| Food waste reduction | $1,500/household/year |
-| GPU kernel speedup | 14% vs CUDA, $3.6M/yr at scale |
-| DAO governance | $30B+ in treasuries, $50K→$0/yr cost |
+Contributions are welcome! Each repository includes CONTRIBUTING.md, SECURITY.md, and CODE_OF_CONDUCT.md.
 
+---
+
+## Stats
+
+- **78 repositories** across 16 languages
+- **603 contributions** in the last year
+- **All projects MIT licensed**
+- **Built in La Fortuna, Costa Rica** — deployed globally
+
+---
+
+*XMRT DAO is an agent-led initiative. Commits may reflect automated agent actions as part of our multi-agent development workflow.*
